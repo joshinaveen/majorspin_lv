@@ -1,0 +1,762 @@
+/*==  Theme Thandari /  Responsive  /  Author: Brahm Inder Singh==*/
+@media only screen and (max-width: 1500px){
+.promotion-refferal003 .left-section {margin: 0px;}	
+.promotion-refferal003 .right-section { width: 82%;}
+.more-people-invite .more-people-invite-inner { width: 82%;}
+.progress-chat-inner { width: 90%;}
+.progress-chat-inner  img { width: 100%;}
+.progress-chat-inner { margin: 32px auto 0; width: 96%;}
+/*CHANGES 26-09-16 Lovish *
+.sticky {
+    position: fixed;
+    top: 30px;
+	right: 4%;
+    z-index: 100;
+}.sign-up-right {
+    position: fixed;
+    right: 4%;
+}*/
+
+}
+@media only screen and  (min-width: 1401px){
+	.login-section {
+    background-color: #ffffff;
+    position: absolute !important;
+    padding-top: 40px !important;
+    right: -158px !important;
+    text-align: center;
+    top: 97px !important;
+    width: 420px !important;
+    z-index: 1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}.login-section::after {
+    left: 8% !important;
+}
+}
+@media only screen and  (min-width: 1201px){
+	/*.sign-up-right {
+    position: fixed !important;
+    right: 4%;
+	bottom: 0px;
+}*/
+.sticky3 {
+    position: absolute !important;
+}.sticky {
+    position: fixed;
+    right: auto;
+	bottom:0px;
+	left:62vw;
+    z-index: 100;
+}.login-section {
+    right: 0px;
+    top: 70px;
+}.login-section::after {
+    background: rgba(0, 0, 0, 0) url("../img/top-arrow.png") no-repeat scroll 0 0;
+    content: "";
+    height: 24px;
+    left: 82%;
+    margin: 0 auto;
+    position: absolute;
+    right: 35px;
+    top: -21px;
+    width: 43px;
+}	
+}
+@media screen and (max-width: 1360px){
+	.sign-up-right form { padding: 20px 42px;}
+	.sign-up-right .divider { margin: 0 0 20px;}
+	.form-error.alert-danger { font-size: 11px;}.sign-up-right .form-field { margin-bottom: 7px;}
+	.sign-up-right .form-field input[type="text"], .sign-up-right .form-field select, .sign-up-right .form-field input[type="email"], .sign-up-right .form-field input[type="tel"], .sign-up-right .form-field input[type="password"] {height: 35px;}
+	
+	
+}
+
+@media only screen and (max-width: 1200px){
+.container {padding: 0 10px;}
+.promotion-refferal003 .right-section {width: 74%;}
+.share-socials a { background-size: 100% auto; width: 300px;}
+.more-people-invite .more-people-invite-inner {float: none; margin: 0 auto; width: 94%;}
+.caption{ top:25%; }
+/*CHANGES 26-09-16 Lovish */
+.sign-up-right form {
+    padding: 20px;
+}.sticky {
+    position: fixed;
+    right: 9px;
+	top:15%;
+    z-index: 100;
+    width: 320px !important;
+}.sign-up-right {
+    width: 320px;
+}#register_basic input {
+    height: 30px;
+}.story-heading {
+    margin: 4% 0 0;
+	margin-bottom: 13% !important;
+}.driver-benefits-head h2 {
+    font-size: 26px;
+}.driverbenefits-right h3::before {
+    width: 65%;
+}
+/*HEADER 30-09-16*/
+.login-section {
+    right: 0px;
+    top: 70px;
+}.login-section::after {
+    background: rgba(0, 0, 0, 0) url("../img/top-arrow.png") no-repeat scroll 0 0;
+    content: "";
+    height: 24px;
+    left: 82%;
+    margin: 0 auto;
+    position: absolute;
+    right: 35px;
+    top: -21px;
+    width: 43px;
+}
+}
+
+@media only screen and (min-width: 981px){
+.menu{display:none !important;}
+
+}
+
+
+@media only screen and (max-width: 980px){
+.landing-page .container {padding: 0 12px;}
+.advisor-left {width: 360px;}
+.advisor-right { float: right;}
+.advisor-right input[type="text"] {width: 311px;}
+.advisor-left h2 {font-size: 24px;}
+.advisor-left h3 {font-size: 20px; line-height: 20px;}
+
+.landing-page .form-field:nth-child(2n+2) {margin-right: 2%;}
+.landing-page select{font-size: 13px;}
+.advisor-right input[type="email"] { width: 311px;}
+
+.promotion-refferal003 .right-section {width: 70%;}
+.after-login .left-section {float: left; width: 27%;}
+.right-section .one-third figure {margin: 0 auto; width: 112px;}
+.right-section .one-third figure img{width: 100%;}
+.promotion-refferal003 .right-section .how-it-works .one-third h5 {font-size: 15px;}
+.promotion-refferal003 .right-section .promp-code .code {font-size: 16px; width: 270px;}
+.promotion-refferal003 p {line-height: 33px;}
+.promotion-refferal003 .right-section .how-it-works { margin-top: 31px; padding-top: 40px;}
+.promotion-refferal003 .right-section .how-it-works h2{font-size: 34px;}
+.promotion-refferal003 .right-section .how-it-works .one-third { margin: 30px 2% 0;}
+.promotion-refferal003 .right-section .promp-code {margin: 30px auto 0;}
+.promotion-refferal003 .right-section .share-socials h6 { font-size: 27px; line-height: 40px;}
+.promotion-refferal003 .right-section .share-socials {padding: 34px 0 40px;}
+.more-people-invite h2 { font-size: 30px;}
+.slider-points li::after{width: 16px; height: 16px;}
+.progress-slider{height: 10px;}
+.slider-points > li{font-size: 12px;}
+.zero .levels { margin-top: 41px;}
+.progress-slider-inner{height: 12px;}
+.seventy .levels , .thirty .levels{ width: 134px;}
+.right-section{width:100% !important;}
+.promotion-refferal003 p{font-size:16px; line-height:30px;}
+.after-login .user-detail{line-height:45px; margin-top:0;}
+.dropdown-content{right:0; left:auto; top:100%; }
+.menu{display:block !important;}
+.after-login .content{padding-top:50px;}
+.after-login .left-section{display:none; width:100%; margin-bottom:30px;}
+.after-login .left-section ul li a{font-size: 13px; padding: 14px 0 14px 18px;}
+.dropdown-content a{padding:6px 16px !important;}
+
+.caption { bottom: 0; left: 0; padding: 1%; top: auto; width: 98%; }
+.caption h1{ font-size: 30px; }
+.caption p { font-size: 16px; }
+
+
+.working-progress .wp-left { padding: 2%; width: 42%; }
+.working-progress .wp-right { width: 54%; }
+.mission-statement .ms-left{ width: 56%; }
+.mission-statement .ms-right{ margin-top: 50px; width: 40%; }
+.working-progress .wp-left h2{ line-height: 36px; }
+.app-section-left{ margin: 4% 2%; width: 39%; }
+.app-btns { float: right; margin:2% 0 0; width: 53%; }
+
+/*CHANGES 26-09-16 Lovish */
+.story-heading h1 {
+    font-size: 20px;
+    line-height: 60px;
+}.story-heading h1 span {
+    font-size: 45px;
+}.sign-up-right h2 {
+    font-size: 12px;
+    padding-bottom: 10px;
+    text-align: center;
+}#register_basic input {
+    font-size: 11px;
+}.sign-up-right .form-field select {
+    font-size: 11px;
+    height: 30px;
+}.sign-up-right .checkbox {
+    font-size: 11px;
+}.sign-up-right .divider {
+    margin: 0 0 15px;
+}.sign-up-right form {
+    padding: 10px 20px;
+}.story-heading {
+    margin-bottom: 18% !important;
+}.xplore {
+    margin: 60px 0 0 95px;
+}.xplore::after {
+    height: 160px;
+	top: 98px;
+}.xplore::before {
+    top: 257px;
+}.inner-left {
+    width: 54%;
+}.wwa-left p {
+    font-size: 13px;
+    line-height: 25px;
+}.what-we-are h2 {
+    font-size: 25px;
+    margin: 0 0 10px;
+}.what-we-are {
+    padding: 65px 0 50px;
+}.what-they-do-section h2 {
+    font-size: 25px;
+    margin: 0 0 20px;
+    padding: 0 35px 0 0;
+    position: relative;
+    text-transform: uppercase;
+}.what-they-do-section p {
+    font-size: 15px;
+    line-height: 25px;
+}.ds-box img {
+    max-width: 20%;
+}.ds-box p {
+    font-size: 12px;
+}.driver-services-in {
+    padding: 15px;
+}.ds-box > h3 {
+    font-size: 12px;
+}.driver-benefits-head::before {
+    left: 35px;
+	top: 85px;
+}.driver-benefits-head::after {
+    left: 49px;
+    height: 86px;
+}.driverbenefits-right ul li {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 8px;
+}.driver-bottom-right h2 {
+    font-size: 15px;
+    margin: 0 0 15px;
+    line-height: 24px;
+}nav ul {
+    text-align: center;
+}.header nav li {
+    width: auto !important;
+    padding: 0px 10px;
+}.sticky1 {
+    position: static !important;
+}.sticky {
+    position: fixed;
+    right: 9px;
+    z-index: 100;
+    width: 320px !important;
+}.driverbenefits-right h3::before {
+    width: 50%;
+}.owl-item {
+    width: 100% !important;
+}
+/*SOCIAL PAGE */
+.advertiser-story-banner {
+    background: rgba(0, 0, 0, 0) url("../img/adv-stroy-banner.jpg") no-repeat scroll 0 0 / auto 100%;
+}.adv-story-heading h1 {
+    font-size: 23px;
+}.adv-story-heading h1 span {
+    font-size: 55px;
+}.social-left h2 {
+    font-size: 21px;
+}.adv-left.social-left p {
+    font-size: 15px;
+    line-height: 25px;
+}.adv-right.social-right img {
+    max-width: 90%;
+    float: right;
+}.advertise-content.social-page {
+    padding-bottom: 0px;
+}.driver-services.social-page-container h2 {
+    text-align: center;
+}.social-media-map figure img {
+    max-width: 60%;
+    margin: auto;
+    float: none !important;
+}.social-media-map figure {
+    text-align: center;
+}.social-icons-inner a i {
+    background: url(../img/social-sprite-inner.png) no-repeat scroll 0 0 / auto 100%;
+    display: block;
+    width: 40px;
+    height: 40px;
+}.social-icons-inner span {
+    margin-top: 4px;
+    font-size: 7px;
+}.social-icons-inner .icon2 {
+    background-position: -57px 0;
+}.social-icons-inner .icon3 {
+    background-position: -113px 0;
+}.social-icons-inner .icon4 {
+    background-position: -171px 0;
+}.social-icons-inner .icon5 {
+    background-position: -229px 0;
+}.social-icons-inner a {
+    margin: 0 3px;
+}.career-bottom {
+    padding: 15px 0;
+}.career-bottom h2 {
+    font-size: 20px;
+}.career-bottom p {
+    font-size: 12px;
+	margin: 0 0 10px;
+}.career-bottom a {
+    font-size: 14px;
+    padding: 12px 0;
+    width: 223px;
+}footer {
+    margin: 10px 0 0;
+}.advertise-content h2 {
+    font-size: 25px;
+}.advertise-content p {
+    font-size: 17px;
+    line-height: 25px;
+}.adv-service {
+    margin: 0px 0 0;
+}.adv-widget p {
+    font-size: 12px;
+}/*.header nav li {
+    position: static;
+}.login-section.login-home.home-login-popup {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    top: 198px;
+}.login-section::after {
+    left: 40%;
+}.main-btn.popup-driver-advertisers {
+    float: left;
+    width: 100%;
+	margin:0px;
+}*/.main-btn.popup-driver-advertisers li {
+    width: 100% !important;
+    float: left;
+}.login-section h2 {
+    margin-bottom: 10px;
+}
+}
+@media only screen and (max-width: 767px) {
+.landing-content h2 {font-size: 22px; line-height: 28px;}
+.landing-content  .advisor-left h3 {font-size: 16px;}
+.advisor-left {width: 240px;}
+.advisor-right input[type="text"] {width: 196px;}
+.r-tabs .r-tabs-nav {display: none;}
+.r-tabs .r-tabs-accordion-title {display: block;}
+.landing-content .advisor-left h2{font-size: 22px;}
+
+
+.landing-content h2 {font-size: 30px; line-height: 30px;}
+.landing-content h4 {font-size: 16px;}
+.landing-content h3 {font-size: 20px;}
+.landing-left-section {float: none; margin: 0 auto; width: 144px;}
+.landing-right-section {width: 100%; text-align: center;}
+
+/*CHANGES 26-09-16 Lovish */
+.logo img {
+    max-width: 15%;
+}.header .main-btn a {
+    font-size: 12px;
+    padding: 10px 0;
+    width: 90px !important;
+}nav li a {
+    font-size: 12px;
+}.header nav {
+    float: right;
+    margin-top: 0px;
+}.sticky {
+    position: relative !important;
+    right: 5px;
+}.inner-left {
+    width: 100%;
+}.inner-left .what-they-do-section {
+    margin: 95px auto 0;
+}.ds-box > h3 {
+    min-height: 50px;
+}.driver-benefits-head {
+    padding: 35px 0 60px;
+}.driver-benefits-head::before {
+    height: 25px;
+}.driver-benefits-head::after {
+    height: 53px;
+}.driver-benefits-in {
+    padding: 1% 2%;
+}.inner-right {
+    display: none;
+}nav ul {
+    text-align: center;
+}.header nav li {
+    width: auto !important;
+    padding: 0px 10px;
+}.driver-bottom {
+    padding: 50px 0 0px !important;
+}.app-section {
+    margin: 10px 0 !important;
+}.app-section-left {
+    margin: auto !important;
+	font-size: 20px !important;
+	margin-top:20px !important;
+}.app-btns {
+    width: 100% !important;
+}footer .app-btns a {
+    padding: 14px 15px 10px 60px !important;
+    margin: 14px 7px 21px !important;
+}footer .android {
+    background: url("../img/android.png") no-repeat scroll 17px 9px !important;
+}footer .apple {
+    background: url("../img/apple.png") no-repeat scroll 17px 7px !important;
+}footer .one-third li {
+    margin-bottom: 10px !important;
+    font-size: 14px !important;
+	text-align: left !important;
+	padding-left: 10px;
+}footer .one-third h3 {
+    display: none !important;
+}footer .social-link {
+    margin: 14px 0 15px !important;
+}footer .one-third.last {
+    padding: 0px 0 !important;
+}footer {
+    background: rgba(0, 0, 0, 0) url("../img/footer-bg.jpg") no-repeat scroll 0 0 / auto 100%;
+}.sticky1 {
+    position: static;
+}
+/*SOCIAL*/
+.adv-story-heading {
+    width: 75%;
+}.adv-left.social-left {
+    width: 100%;
+	margin-bottom:10px;
+}.adv-right.social-right {
+    float: left;
+    width: 100%;
+    text-align: center;
+}.adv-right.social-right img {
+    max-width: 75%;
+    float: none !important;
+    margin: auto;
+}.social-media-map figure {
+    width:auto;
+}.driver-benefits-head::before {
+    top: 52px;
+}.login-section.login-home.home-login-popup {
+    top: 150px !important;
+}
+}
+@media (min-width: 481px) and (max-width: 768px){
+	
+	/* Mohit Responsive 9/9/16*/
+.logo {  float: none;  text-align: center; }
+.header{ float:none; }
+.header .main-btn{ float:none; text-align:center; margin:10px 0; }
+.header .main-btn a{ width:130px; }
+.header nav{ float:none; }
+.header nav li{ width:32%; }
+.banner{ float:none; }
+.caption { bottom: 0; left: 0; padding: 1%; top: auto; width: 98%; }
+.caption h1{ font-size: 30px; }
+.caption p { font-size: 16px; }
+.caption a{ background: rgba(0, 0, 0, 0) url("../img/banner-btn.png") no-repeat scroll 0 0 / 215px auto; height: auto; line-height: 44px; margin: 0 auto; width: 215px; }
+.working-progress{ float:none; margin:10px 0; padding: 30px 0; }
+.working-progress .wp-left{ float:none; width:auto; padding:2%; }
+.working-progress .wp-left h2{ line-height:34px; }
+.working-progress .wp-right { float: none; margin: 10px auto; width: 90%; }
+.how-we-works{ float:none; clear: both; }
+.custom-tabs{ float:none; clear: both;}
+.benefits{ float:none; clear: both; }
+.car-banner{ float:none; clear: both; }
+.three-sicty-rotion{ width:auto; }
+.spritespin-instance.with-canvas { width: 100% !important; }
+.mission-statement{ float:none; clear: both; }
+.mission-statement .ms-left{ float:none; width:auto; }
+
+.ms-left p{  font-size: 20px; padding: 15px; text-align: center; }
+.mission-statement .ms-right{ float:none; width:auto; margin-top: -70px; }
+.mission-statement .about-hdg h3::after{ width:100%; }
+footer { float: none; margin: 50px 0 0; padding: 20px 0 0; width: auto; }
+.app-section{ float:none; width:auto; margin:50px 0; }
+.lower-footer{ float:none; margin:0; }
+.app-section-left{ float:none;  text-align: center; margin:15px; }
+.app-btns{ float:none; margin: 0; text-align: center; }
+footer .one-third{ text-align:center;  width: 48%; }
+footer .one-third.last{ width:100%; padding: 20px 0; }
+footer .social-link { margin: 20px 0 30px; }
+
+/*changes 27-09-16*/
+.app-section {
+    margin: 0px 0px 20px 0;
+}.app-section-left {
+    width: 100%;
+}.app-btns {
+    width: 100%;
+}footer .one-third li {
+    margin-bottom: 10px;
+    text-align: left !important;
+    padding-left: 15px;
+}.one-third.last h3 {
+    display: none;
+}footer .one-third.last {
+    width: 100%;
+    padding: 0px 0px 20px 0;
+}
+.main-btn.popup-driver-advertisers {
+    float: left;
+    width: 100%;
+    margin: 0px !important;
+    box-sizing: border-box;
+}.main-btn.popup-driver-advertisers li {
+    width: 100% !important;
+    float: left;
+    box-sizing: border-box;
+}.main-btn.popup-driver-advertisers li a {
+    font-size: 12px;
+    padding: 10px 0;
+    width: 110px !important;
+}.login-section.login-home.home-login-popup {
+    top: 175px;
+}.login-section::after {
+    left: 33%;
+}.header nav li {
+    position: static !important;
+}.login-section.login-home.home-login-popup {
+    top: 196px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+}
+
+
+@media only screen and (max-width: 640px){
+
+.landing-right-section p{font-size: 20px;}
+.landing-page h5{text-align: center;}
+p.already-account {font-size: 16px; margin: 35px 0 25px; text-align: center;}
+.advisor-left {width: 100%;}
+.advisor-left h2, .advisor-left h3{text-align: center;}
+.advisor-right {margin-top: 20px; text-align: center; width: 100%;}
+.advisor-right input[type="text"] {width: 290px;}
+.landing-page footer {padding: 24px 0;}
+.advisor {margin: 17px 0 13px;}
+.advisor-right { margin-top: 9px;}
+.landing-page .form-field:nth-child(2n+2) {
+    float: left;
+    /* margin-right: 18px; */
+}
+
+.after-login .left-section { float: left; margin-bottom: 20px; width: 100%;}
+.promotion-refferal003 .right-section {width: 100%;}
+.after-login .content {padding: 60px 0 33px;}
+.more-people-invite-inner a {font-size: 15px; width: 234px; height: 46px; line-height: 46px;}
+.more-people-invite {  padding: 80px 0 35px; }
+.more-people-invite h2 {font-size: 23px;}
+.more-people-invite {padding: 29px 0 24px;}
+.progress-chart {margin: 17px 0 15px; padding: 20px;}
+.promotion-refferal003 .right-section .how-it-works .one-third {margin: 30px 0 0; width: 100%;}
+.promotion-refferal003 .right-section .how-it-works .one-third h5 {font-size: 17px;}
+.promotion-refferal003 .right-section .how-it-works .one-third p {font-size: 14px;}
+.promotion-refferal003 .right-section .promp-code{width: 94%;}
+.after-login .content {padding: 15px 0 19px;}
+.after-login .user-detail { height: 22px; margin: 14px 0 0;}
+.after-login .user-detail  .u-name {font-size: 0;}
+.landing-page footer, .after-login footer {padding: 32px 0;}
+.after-login .user-detail .u-name {font-size: 0;}
+.after-login  .user-detail > li {font-size: 0;}
+.slider-points > li {font-size: 10px;}
+.promotion-refferal003 p{line-height:26px; font-size:15px;}
+
+
+.story-heading {
+    width: 48%;
+}
+
+}
+
+@media only screen and (max-width: 480px){
+.landing-content h3 {margin: 42px 0 20px;}
+.landing-content h2{margin-bottom: 20px; font-size: 24px; line-height: 24px;}
+.landing-page .form-field {width: 100%; margin: 0 0 10px;}
+.advisor-left > h2 {margin: 0;}
+.landing-content .advisor-left h3{margin: 0px;}
+.landing-content h4 {font-size: 14px;}
+.landing-content h3 {font-size: 18px;}
+.advisor-right input[type="text"] {width: 225px;}
+.landing-page footer span {padding: 0 6px;}
+.privacy-link::after {right: -4px;    top: -8px;}
+.landing-page h5 {font-size: 17px; margin-bottom: 12px;}
+.landing-right-section p {font-size: 17px;}
+p.already-account { margin: 13px 0 22px;}
+.advisor-right input[type="email"]{width: 220px;}
+.login-section form {padding: 0 16px;}
+
+p.already-account { margin: 13px 0 22px;}
+.promotion-refferal003 .right-section .promp-code .code {margin-bottom: 10px; width: 90%;}
+.promotion-refferal003 .right-section .promp-code .copy-code {height: 46px; line-height: 46px; margin: 0;}
+.promotion-refferal003 .right-section .promp-code{padding: 24px 0 18px;}
+.after-login .logo{width: 130px; top: 5px;} 
+.after-login .logo img{width: 100%;}
+.landing-page footer span, .after-login footer span {padding: 0 10px;}
+
+
+.progress-chart { padding: 20px 3px;}
+
+.slider-points li::after {
+    height: 10px;
+    width: 10px;
+}
+
+.progress-slider {
+    height: 6px;
+}
+
+.progress-slider-inner {
+    height: 6px;
+}
+.slider-points li::after{top: -32px;}
+.thirty .levels, .seventy .levels  {
+    font-size: 9px;
+    text-align: center;
+    width: 40px;
+}
+.zero .levels {
+    font-size: 9px;
+    margin-top: 50px;
+    width: 38px;
+}
+.levels { margin-top: 35px;}
+
+.promotion-refferal003 .right-section .share-socials h6 {
+    font-size: 22px;
+    line-height: 32px;
+}
+.landing-content{ position:relative; }
+.login-section.registration{   top: 175px;  padding-top: 15px; }
+.login-section .form-field input[type="text"], .login-section .form-field input[type="password"]{ height:35px; } 
+.login-section .form-field input[type="submit"]{ height: 40px; line-height: 34px; }
+
+
+/* Mohit Responsive 9/9/16*/
+.logo {  float: none;  text-align: center; }
+.header{ float:none; }
+.header .main-btn{ float:none; text-align:center; margin:10px 0; }
+.header .main-btn a{ width:130px; }
+.header nav{ float:none; }
+.header nav li{ width:32%; }
+.banner{ float:none; }
+.caption {left: 0; padding: 1%; width: 98%; top: 70px; }
+.caption h1{ font-size: 20px; }
+.caption p { font-size: 11px; }
+.caption a{ background: rgba(0, 0, 0, 0) url("../img/banner-btn.png") no-repeat scroll 0 0 / 215px auto; height: auto; line-height: 44px; margin: 0 auto; width: 215px; }
+.working-progress{ float:none; margin:10px 0; padding: 30px 0; }
+.working-progress .wp-left{ float:none; width:auto; padding:2%; }
+.working-progress .wp-left h2{ line-height:34px; }
+.working-progress .wp-right { float: none; margin: 10px auto; width: 90%; }
+.how-we-works{ float:none; clear: both; }
+.custom-tabs{ float:none; clear: both;}
+.benefits{ float:none; clear: both; }
+.car-banner{ float:none; clear: both; }
+.three-sicty-rotion{ width:auto; }
+.spritespin-instance.with-canvas { height: 245px !important; width: 100% !important; }
+.mission-statement{ float:none; clear: both; }
+.mission-statement .ms-left{ float:none; width:auto; }
+.mission-statement .ms-left h2{ width:auto; font-size: 22px; }
+.mission-statement .speaker{ width:22%; }
+.mission-statement .ms-left span{ width: 75%; margin: 0; }
+.ms-left p{  font-size: 20px; padding: 15px; text-align: center; }
+.mission-statement .ms-right{ float:none; width:auto; margin-top: -70px; }
+.mission-statement .about-hdg h3::after{ width:100%; }
+footer { float: none; margin: 50px 0 0; padding: 20px 0 0; width: auto; }
+.app-section{ float:none; width:auto; margin:50px 0; }
+.lower-footer{ float:none; margin:0; }
+.app-section-left{ float:none; width:auto; text-align: center; margin:15px; }
+.app-btns{ float:none; margin: 0; width:auto; text-align: center; }
+footer .one-third{ text-align:center;  width: 48%; }
+footer .one-third.last{ width:100%; padding: 20px 0; }
+footer .social-link { margin: 20px 0 30px; }
+.tab-inner, .left-thumb, .right-text{ float:none; width:auto; }
+.benefits .right-text li{ float:none; width:auto; }
+/*CHANGES 26-09-16*/
+.story-heading {
+    width: 100%;
+}.driver-story-banner {
+    background: rgba(0, 0, 0, 0) url("../img/driver-story-banner.jpg") no-repeat scroll 0 0 / auto 100%;
+    padding-top: 0px;
+}.story-heading h1 {
+    font-size: 15px;
+    line-height: 30px;
+}.story-heading h1 span {
+    font-size: 30px;
+}.story-heading {
+    margin-bottom: 0% !important;
+}.xplore {
+    margin: 15px 0 0 95px !important;
+}.driver-benefits-head h2 {
+    font-size: 20px !important;
+}.driver-benefits-head {
+    padding: 25px 0 34px !important;
+}.driver-benefits {
+    padding: 0 0 0px !important;
+}.driverbenefits-right h3::before {
+    width: 40% !important;
+}
+.main-btn.popup-driver-advertisers {
+    float: left !important;
+    width: 100% !important;
+    margin: 0px !important;
+}.login-section.login-home.home-login-popup {
+    width: 80%;
+}.header nav li {
+    position: static !important;
+}.login-section.login-home.home-login-popup {
+    top: 196px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}.login-section::after {
+    left: 35%;
+}
+
+}
+
+
+@media only screen and (max-width: 360px){
+.landing-page footer span, .after-login footer span {display: block;}
+.privacy-link::after{display: none;}
+.share-socials a {height: 57px; width: 257px;}
+.caption { top:0; }
+
+.spritespin-instance.with-canvas { height: 200px !important; }
+.driver-benefits-head h2 {
+    font-size: 15px !important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

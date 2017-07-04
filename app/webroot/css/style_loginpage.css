@@ -1,0 +1,22 @@
+ .navbar {margin-left:0px !important}
+    .upper-layer{background-color:#10223E ;}
+    .lower-layer{background-color:#1A3867}
+    .main-footer{margin-left:0px !important; background-color: #10223E}
+    .main-header .navbar-custom-menu, .main-header .navbar-right{float:none !important}
+    .navbar-custom-menu { margin: 0 36%;}
+    .main-header .main-heading {
+    display: block;
+    float: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    padding: 0 15px;
+    text-align: center;
+    transition: width 0.3s ease-in-out 0s;
+    width: 400px;
+    color:#fff;
+}
+.main-footer .pull-right{color:#fff;}

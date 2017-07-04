@@ -1,0 +1,41 @@
+/*.main-footer{ background-color: #10223E}
+.main-footer .pull-right{color:#fff;}
+.skin-blue .main-header .logo{background-color: #10223E !important;}
+.skin-blue .main-header .navbar{background-color: #10223E !important;}*/
+.error-message{color:red;}
+.success-message{color:green;}
+
+.skin-blue .sidebar a {
+    color: black !important;
+}
+
+.skin-blue .sidebar-menu > li:hover > a, .skin-blue .sidebar-menu > li.active > a {
+    background: #3c8dbc none repeat scroll 0 0 !important;
+    border-left-color: #1e282c !important;
+    color: #fff !important;
+}
+
+.skin-blue .treeview-menu > li > a {
+    color: white !important;
+}
+
+.skin-blue .sidebar-menu > li > .treeview-menu {
+    background: #72afd2 none repeat scroll 0 0 !important;
+}
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: white !important;
+}
+.skin-blue .user-panel > .info, .skin-blue .user-panel > .info > a {
+    color: #555 !important;
+    margin-top: 12px;
+}
+
+#example1_filter > form {
+    float: right;
+    }
+
+.admin-logo {
+    margin-top: -6px;
+    width: 125px;
+}

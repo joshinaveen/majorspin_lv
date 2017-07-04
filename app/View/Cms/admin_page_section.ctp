@@ -53,12 +53,11 @@
 		  <thead>
 			  <tr role="row">
 				<th><input type="checkbox" value="check_all" class="check_all" name="check_all"></th>
-				<th class="sorting"><?php echo $this->Paginator->sort('id', 'S.No'); ?></th>
+				
 				<th class="sorting"><?php echo $this->Paginator->sort('page_name', 'Page Name'); ?></th>
 				<th class="sorting"><?php echo $this->Paginator->sort('image','Image'); ?></th>
-				<th class="sorting"><?php echo $this->Paginator->sort('show_at_home','Show'); ?></th>
-				<th class="sorting"><?php echo $this->Paginator->sort('created'); ?></th>
-				<th class="sorting"><?php echo $this->Paginator->sort('modified'); ?></th>
+				<th class="sorting"><?php echo $this->Paginator->sort('show_at_home','Show On Frontend'); ?></th>
+				
 				<th class="sorting"><?php echo __('Action'); ?></th>
 				
 			  </tr>  
@@ -74,7 +73,7 @@
           ?>
             <tr role="row">
               <td valign="middle"><input class = "check-box-select" type="checkbox" value="<?php echo $subpage['SubPage']['id']; ?>" name="ids[]"></td>
-             <td><?php echo $subpage['SubPage']['id']?></td>
+           
 			 <td><?php echo $subpage['Cms']['page_name']?></td>
                <td><?php if(isset($subpage['SubPage']['image']) && $subpage['SubPage']['image'] !=''){ ?>
                 
@@ -84,11 +83,10 @@
                   }else{ ?>  
                        <img src="<?php echo $this->webroot; ?>img/services/no_image.png" class="img-rounded img-thumbnail" alt="<?php echo $subpage['SubPage']['image'] ; ?>" width="50" height="50"><?php 
                   }?></td>
-              <td><?php if($show=='Yes'){echo '<span class="btn btn-success btn-flat">Yes</span>';}
-                elseif($show=='No'){ echo '<span class="btn btn-warning btn-flat">No</span>';}
+              <td><?php if($show=='Yes'){echo '<span class="label label-success">Yes</span>';}
+                elseif($show=='No'){ echo '<span class="label label-warning">No</span>';}
                 ?></td>
-              <td><?php echo date('d-m-Y H:i:s',strtotime($subpage['SubPage']['created'])); ?></td>
-			  <td><?php echo date('d-m-Y H:i:s',strtotime($subpage['SubPage']['modified'])); ?></td>
+             
                          
 			  <td valign="middle" >&nbsp;
 				<?php 
@@ -123,12 +121,11 @@
       <tfoot>
       <tr role="row">
 				<th><input type="checkbox" value="check_all" class="check_all" name="check_all"></th>
-				<th class="sorting"><?php echo $this->Paginator->sort('id', 'S.No'); ?></th>
+				
 				<th class="sorting"><?php echo $this->Paginator->sort('page_name', 'Page Name'); ?></th>
 				<th class="sorting"><?php echo $this->Paginator->sort('image','Image'); ?></th>
-				<th class="sorting"><?php echo $this->Paginator->sort('show_at_home','Show'); ?></th>
-				<th class="sorting"><?php echo $this->Paginator->sort('created'); ?></th>
-				<th class="sorting"><?php echo $this->Paginator->sort('modified'); ?></th>
+				<th class="sorting"><?php echo $this->Paginator->sort('show_at_home','Show On Frontend'); ?></th>
+				
 				<th class="sorting"><?php echo __('Action'); ?></th>
 				
 			  </tr>  

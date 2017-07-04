@@ -84,8 +84,8 @@
                   }?></td>
               <td><?php echo $client['Client']['name']?></td>
               <td><?php echo $client['Client']['url']?></td>
-              <td><?php if($show=='Yes'){echo '<span class="btn btn-success btn-flat">Yes</span>';}
-                elseif($show=='No'){ echo '<span class="btn btn-warning btn-flat">No</span>';}
+              <td><?php if($show=='Yes'){echo '<span class="label label-success">Yes</span>';}
+                elseif($show=='No'){ echo '<span class="label label-warning">No</span>';}
                 ?></td>
               <td><?php echo date('d-m-Y',strtotime($client['Client']['created'])); ?></td>
 			  <td><?php echo date('d-m-Y',strtotime($client['Client']['modified'])); ?></td>

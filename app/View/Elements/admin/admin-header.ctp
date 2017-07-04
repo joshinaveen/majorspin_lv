@@ -5,7 +5,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>MS</b></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b><img class="admin-logo" src="<?php echo $this->webroot; ?>img/logo_admin.png"></b></span>
+      <span class="logo-lg"><b>Major</b>Spin</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">

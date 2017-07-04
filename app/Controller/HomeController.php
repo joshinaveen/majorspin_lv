@@ -81,11 +81,11 @@ class HomeController extends AppController {
 
         if($id){
             $this->request->data = $this->Price->findById($id);
-            $this->set('page','Edit Price');
-			$this->set('title_for_layout','Edit Price');
+            $this->set('page','Edit Campaign');
+			$this->set('title_for_layout','Edit Campaign');
         }else{
-            $this->set('page','Add Price');
-			$this->set('title_for_layout','Add Price');
+            $this->set('page','Add Campaign');
+			$this->set('title_for_layout','Add Campaign');
         }
     }
 		
@@ -97,7 +97,7 @@ class HomeController extends AppController {
 	 */ 
     
     function admin_prices(){
-        $this->set('title_for_layout','Manage Price');
+        $this->set('title_for_layout','Manage Campaign');
         
         if(isset($this->request->query['limit'])){
             $this->limit=$this->request->query['limit'];
@@ -121,9 +121,9 @@ class HomeController extends AppController {
                                 }
                             }
                             $deletedCount = count($deletedIds);
-                            $userC = 'Price';
+                            $userC = 'Campaign';
                             if($deletedCount>1){
-                                $userC = 'Prices';
+                                $userC = 'Campaigns';
                             }
                             $this->Session->setFlash(__('Selected '.$userC.' deleted',true),'default',array('class'=>'alert alert-success'));
                             return $this->redirect('prices');
@@ -139,9 +139,9 @@ class HomeController extends AppController {
                                 }
                             }
                             $deletedCount = count($deletedIds);
-                            $userC = 'Price';
+                            $userC = 'Campaign';
                             if($deletedCount>1){
-                                $userC = 'Prices';
+                                $userC = 'Campaigns';
                             }
                             $this->Session->setFlash(__('Selected '.$userC.' updated',true),'default',array('class'=>'alert alert-success'));
                             return $this->redirect('prices');
@@ -157,9 +157,9 @@ class HomeController extends AppController {
                                 }
                             }
                             $deletedCount = count($deletedIds);
-                            $userC = 'Price';
+                            $userC = 'Campaign';
                             if($deletedCount>1){
-                                $userC = 'Prices';
+                                $userC = 'Campaigns';
                             }
                             $this->Session->setFlash(__('Selected '.$userC.' updated',true),'default',array('class'=>'alert alert-success'));
                             return $this->redirect('prices');
@@ -168,7 +168,7 @@ class HomeController extends AppController {
                     }
                 }else
                 {
-                    $this->Session->setFlash(__('Select Price to complete process!',true),'default',array('class'=>'alert alert-danger'));
+                    $this->Session->setFlash(__('Select Campaign to complete process!',true),'default',array('class'=>'alert alert-danger'));
                 }
             }else{
                 

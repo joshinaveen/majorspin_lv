@@ -9,73 +9,66 @@
      
     </section>
 
-    <!-- Main content -->
-    <section class="content">
-      <!-- Small boxes (Stat box) -->
-      <div class="row">
+   <section class="content">
+        <div class="row">
+           
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-yellow">
+                    <div class="inner">
+                        <h3>1</h3>
+                        <p>Total Users</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <a href="javascript:void(0)" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-red">
+                    <div class="inner">
+                        <h3>0</h3>
+                        <p>Resellers</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <a href="javascript:void(0)" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+             <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-aqua">
+                    <div class="inner">
+                        <h3>0</h3>
+                        <p>Campaigns</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-tag"></i>
+                    </div>
+                    <a href="javascript:void(0)" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-green">
+                    <div class="inner">
+                        <h3>0</h3>
+                        <p>Campaign Purchase</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-tag"></i>
+                    </div>
+                    <a href="javascript:void(0)" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+          </div>
+
+          
+        <div class="clearfix visible-sm-block"></div>
+
+        
        
-      
-    
- 
+        <!-- /.col -->
       </div>
+      <!-- /.row -->
+
     </section>
-    <!-- /.content -->
-  
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>  
-  <!--<script>
-google.charts.load('current', {packages: ['corechart', 'line']});
-google.charts.setOnLoadCallback(drawLogScales);
-
-function drawLogScales() {
-     var data = new google.visualization.DataTable();
-data.addColumn('string', 'Month'); // Implicit domain label col.
-data.addColumn('number', ''); // Implicit series 1 data col.
-data.addRows([
-<?php foreach($zonalHeadCountMonth as $usr){ ?>
-  ['<?php echo $usr['0']['month_name']; ?>',<?php echo $usr['0']['tusers']; ?>],
-<?php } ?>
-]);
-      var options = {
-        hAxis: {
-          title: 'Month',
-          logScale: true
-        },
-        vAxis: {
-          title: 'Zonal Heads',
-          logScale: false
-        },
-        colors: ['#a52714', '#097138']
-      };
-
-      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
-      chart.draw(data, options);
-
-
-
-
-
- var data2 = new google.visualization.DataTable();
-data2.addColumn('string', 'Month'); // Implicit domain label col.
-data2.addColumn('number', 'Call Center Admin'); // Implicit series 1 data col.
-data2.addRows([
-<?php foreach($callCenterCountMonth as $usr){ ?>
-  ['<?php echo $usr['0']['month_name']; ?>',<?php echo $usr['0']['tusers']; ?>],
-<?php } ?>
-]);
-      var options = {
-        hAxis: {
-          title: 'Month',
-          logScale: true
-        },
-        vAxis: {
-          title: 'Call Center Admin',
-          logScale: false
-        },
-        colors: ['#a52714', '#097138']
-      };
-
-      var chart = new google.visualization.LineChart(document.getElementById('chart_div2'));
-      chart.draw(data2, options);
-
-    }
-    </script>-->

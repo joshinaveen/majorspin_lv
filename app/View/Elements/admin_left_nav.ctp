@@ -30,15 +30,15 @@
           <a href="#">
           <i class="fa fa-dollar" aria-hidden="true"></i>
 
-            <span>Price Management</span>
+            <span>Campaign Management</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
         
           <ul  class="treeview-menu <?php if($this->name=='Home' && in_array($this->action,array('admin_prices','admin_add_price'))) echo 'menu-open' ; ?>">
-            <li <?php if($this->action=='admin_add_price') echo 'class="active"' ; ?>><?php echo $this->Html->link('<i class="fa fa-circle-o"></i> Add Price',array('controller'=>'home','action'=>'add_price','admin'=>true),array('escape'=>false)); ?></li>
-            <li <?php if($this->action=='admin_prices') echo 'class="active"' ; ?>><?php echo $this->Html->link('<i class="fa fa-circle-o"></i> List Prices',array('controller'=>'home','action'=>'prices','admin'=>true),array('escape'=>false)); ?></li>
+            <li <?php if($this->action=='admin_add_price') echo 'class="active"' ; ?>><?php echo $this->Html->link('<i class="fa fa-circle-o"></i> Add Campaign',array('controller'=>'home','action'=>'add_price','admin'=>true),array('escape'=>false)); ?></li>
+            <li <?php if($this->action=='admin_prices') echo 'class="active"' ; ?>><?php echo $this->Html->link('<i class="fa fa-circle-o"></i> List Campaigns',array('controller'=>'home','action'=>'prices','admin'=>true),array('escape'=>false)); ?></li>
           </ul>
         </li>
 		
@@ -81,8 +81,8 @@
             </span>
           </a>
           <ul  class="treeview-menu <?php if($this->name=='Cms') echo 'menu-open' ; ?>">
-            <li <?php if($this->action=='admin_add_cms') echo 'class="active"' ; ?>><?php echo $this->Html->link('<i class="fa fa-circle-o"></i> Add Cms',array('controller'=>'cms','action'=>'add_cms','admin'=>true),array('escape'=>false)); ?></li>
-            <li <?php if($this->action=='admin_index') echo 'class="active"' ; ?>><?php echo $this->Html->link('<i class="fa fa-circle-o"></i> List Cms',array('controller'=>'cms','action'=>'index','admin'=>true),array('escape'=>false)); ?></li>
+            <li <?php if($this->action=='admin_add_cms') echo 'class="active"' ; ?>><?php echo $this->Html->link('<i class="fa fa-circle-o"></i> Add Content',array('controller'=>'cms','action'=>'add_cms','admin'=>true),array('escape'=>false)); ?></li>
+            <li <?php if($this->action=='admin_index') echo 'class="active"' ; ?>><?php echo $this->Html->link('<i class="fa fa-circle-o"></i> List Content',array('controller'=>'cms','action'=>'index','admin'=>true),array('escape'=>false)); ?></li>
           </ul>
         </li> 
 

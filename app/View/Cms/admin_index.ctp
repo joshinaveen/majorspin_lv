@@ -52,7 +52,7 @@
 		  <thead>
 			  <tr role="row">
 				<th><input type="checkbox" value="check_all" class="check_all" name="check_all"></th>
-				<th class="sorting"><?php echo $this->Paginator->sort('id', 'S.No'); ?></th>
+				
 				<th class="sorting"><?php echo $this->Paginator->sort('page_name', 'Page Name'); ?></th>
 				<th class="sorting"><?php echo $this->Paginator->sort('url_key','Slug'); ?></th>
 				<th class="sorting"><?php echo $this->Paginator->sort('status','Status'); ?></th>
@@ -66,33 +66,35 @@
       <?php 
       if(!empty($contents))
       {
-		
+             // echo  $i=$this->Paginator->count{start} die;
         foreach($contents as $content)
         { 
 			if($content['Cms']['status']=='Active'){ $status = 'Active';}else{ $status = 'Inactive';}
           ?>
             <tr role="row">
               <td valign="middle"><input class = "check-box-select" type="checkbox" value="<?php echo $content['Cms']['id']; ?>" name="ids[]"></td>
-             <td><?php echo $content['Cms']['id']?></td>
+           
 			 <td><?php echo $content['Cms']['page_name']?></td>
               <td><?php echo $content['Cms']['url_key']?></td>
-              <td><?php if($content['Cms']['status']=='active'){echo '<span class="btn btn-success btn-flat">Active</span>';}
-                elseif($content['Cms']['status']=='inactive'){ echo '<span class="btn btn-warning btn-flat">Inactive</span>';}
+              <td><?php if($content['Cms']['status']=='active'){echo '<span class="label label-success">Active</span>';}
+                elseif($content['Cms']['status']=='inactive'){ echo '<span class="label label-warning">Inactive</span>';}
                 ?></td>
               <td><?php echo date('d-m-Y H:i:s',strtotime($content['Cms']['created'])); ?></td>
 			  <td><?php echo date('d-m-Y H:i:s',strtotime($content['Cms']['modified'])); ?></td>
                          
 			  <td valign="middle" >&nbsp;
-				<?php 
+				
+				
+				<?php if($content['Cms']['url_key']=='services') { ?>
+				
+				<a href="<?php echo $this->webroot; ?>admin/cms/page_section/<?php echo $content['Cms']['id']; ?>" data-original-title="Edit Pages" data-toggle="tooltip" ><span class="glyphicon glyphicon-pencil"></span></a>
+                                <?php }else{
+                                
 					echo $this->Html->link('<span class="glyphicon glyphicon-pencil"></span>', 
 					array('prefix' => 'admin', 'action' => 'edit_cms',$content['Cms']['id']), 
 					array('escape' => false,'data-original-title'=>'Edit Cms','data-toggle'=>'tooltip')); 
-				?>
 				
-				
-				&nbsp;&nbsp;
-				<a href="<?php echo $this->webroot; ?>admin/cms/page_section/<?php echo $content['Cms']['id']; ?>" data-original-title="show sub pages" data-toggle="tooltip" ><i class="fa fa-object-group"></i></a>
-				
+                                } ?>
                                
                                
 				  
@@ -115,7 +117,7 @@
       <tfoot>
       <tr role="row">
 				<th><input type="checkbox" value="check_all" class="check_all" name="check_all"></th>
-				<th class="sorting"><?php echo $this->Paginator->sort('id', 'S.No'); ?></th>
+				
 				<th class="sorting"><?php echo $this->Paginator->sort('page_name', 'Page Name'); ?></th>
 				<th class="sorting"><?php echo $this->Paginator->sort('url_key','Slug'); ?></th>
 				<th class="sorting"><?php echo $this->Paginator->sort('status','Status'); ?></th>

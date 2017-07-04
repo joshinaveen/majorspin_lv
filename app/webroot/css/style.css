@@ -10,7 +10,7 @@
 }
 
 .skin-blue .sidebar-menu > li:hover > a, .skin-blue .sidebar-menu > li.active > a {
-    background: #3c8dbc none repeat scroll 0 0 !important;
+    background: #1BA29B none repeat scroll 0 0 !important;
     border-left-color: #1e282c !important;
     color: #fff !important;
 }
@@ -20,7 +20,7 @@
 }
 
 .skin-blue .sidebar-menu > li > .treeview-menu {
-    background: #72afd2 none repeat scroll 0 0 !important;
+    background: #1FB5AD none repeat scroll 0 0 !important;
 }
 
 .skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {

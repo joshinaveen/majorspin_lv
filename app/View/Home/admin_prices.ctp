@@ -4,7 +4,7 @@
 	$limit = isset($this->request->query['limit']) ? $this->request->query['limit'] : '20';
 ?>
 <section class="content-header">
-      <h1>Prices
+      <h1>Campaigns
         <div class="box-tools pull-right">
            <?php
           echo $this->Html->link('<i class="fa fa-dollar"></i> Add Price', 
@@ -74,8 +74,8 @@
               <td valign="middle"><input class = "check-box-select" type="checkbox" value="<?php echo $price['Price']['id']; ?>" name="ids[]"></td>
               <td><?php echo $price['Price']['title']?></td>
               <td><?php echo $price['Price']['price']?></td>
-              <td><?php if($show=='Yes'){echo '<span class="btn btn-success btn-flat">Yes</span>';}
-                elseif($show=='No'){ echo '<span class="btn btn-warning btn-flat">No</span>';}
+              <td><?php if($show=='Yes'){echo '<span class="label label-success">Yes</span>';}
+                elseif($show=='No'){ echo '<span class="label label-warning">No</span>';}
                 ?></td>
               <td><?php echo date('d-m-Y H:i:s',strtotime($price['Price']['created'])); ?></td>
 			  <td><?php echo date('d-m-Y H:i:s',strtotime($price['Price']['modified'])); ?></td>

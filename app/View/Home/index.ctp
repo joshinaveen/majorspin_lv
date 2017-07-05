@@ -6,8 +6,19 @@
 	<source src="https://drive.google.com/uc?export=download&id=0B-ldJJbw0AnkTmZCT0E1S0pwZFk" type="video/mp4">
 	</video>
   </div>
+<<<<<<< HEAD
 	
 
+=======
+	<div class="container-fluid">
+	<div class="row">
+  <div class="logo text-center">
+   <a href="index.html"><h1>Company</h1></a>
+  </div>
+  <div class="headText text-center col-sm-6">
+  <h1>Selling Online Was Never So Easy</h1>
+  </div>
+>>>>>>> 1e44a7d71bd1a2fa2a7b3de4c988504619acc9b5
 	<div id="polina" class="col-sm-6">
 	<h4 class="text-center">Register as a New Seller</h4>
 	<div class="social text-center">
@@ -27,38 +38,58 @@
 	<div class="text-center">
 		<h5>OR</h5>
 	</div>
+<<<<<<< HEAD
 	
 	<?php echo  $this->Form->create('User',array('method'=>'POST','url'=>array('controller'=>'logins','action'=>'register'),'class'=>'form-horizontal')); ?>
     <div class="form-group has-success has-feedback">
       <div class="col-sm-12">
       
 		<?php echo $this->Form->input('firstname',array('type'=>'text','class'=>'form-control','placeholder'=>'Name','required'=>true,'label'=>false)); ?>
+=======
+	<form class="form-horizontal">
+    <div class="form-group has-success has-feedback">
+      <div class="col-sm-12">
+        <input type="text" class="form-control" id="inputSuccess" placeholder="Full Name" required>
+>>>>>>> 1e44a7d71bd1a2fa2a7b3de4c988504619acc9b5
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
       </div>
     </div>
      <div class="form-group has-success has-feedback">
       <div class="col-sm-12">
+<<<<<<< HEAD
        
 		<?php echo $this->Form->input('email',array('type'=>'text','class'=>'form-control','placeholder'=>'Email','required'=>true,'label'=>false)); ?>
+=======
+        <input type="text" class="form-control" id="inputSuccess" placeholder="Email" required>
+>>>>>>> 1e44a7d71bd1a2fa2a7b3de4c988504619acc9b5
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
     </div>
      <div class="form-group has-success has-feedback">
       <div class="col-sm-12">
+<<<<<<< HEAD
         
 		<?php echo $this->Form->input('phone_no',array('type'=>'text','class'=>'form-control','placeholder'=>'Mobile Number','required'=>true,'label'=>false)); ?>
+=======
+        <input type="text" class="form-control" id="inputSuccess" placeholder="Mobile Number" required>
+>>>>>>> 1e44a7d71bd1a2fa2a7b3de4c988504619acc9b5
         <span class="glyphicon glyphicon-phone form-control-feedback"></span>
       </div>
     </div>
      <div class="form-group has-success has-feedback">
       <div class="col-sm-12">
+<<<<<<< HEAD
        
 		<?php echo $this->Form->input('password',array('type'=>'password','class'=>'form-control','placeholder'=>'Password','required'=>true,'label'=>false)); ?>
+=======
+        <input type="text" class="form-control" id="inputSuccess" placeholder="Password" required>
+>>>>>>> 1e44a7d71bd1a2fa2a7b3de4c988504619acc9b5
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
     </div>
   <div class="text-center">
   <p class="text-center">By signing up, you agree to our <a href="#">T&C</a> and <a href="#">privacy policy</a></p>
+<<<<<<< HEAD
   
   <?php echo $this->Form->submit('START SELLING',array('class'=>'btn sellBtn btn-success')); ?>
   </div>
@@ -71,6 +102,19 @@
   
 </div>
 
+=======
+  <button type="button" class="btn sellBtn btn-success">START SELLING</button>
+  </div>
+  </form>
+  <br>
+   <div class="text-right">
+   <p>Already Registered?<a href="#"> Login Here </a></p>
+  </div>
+</div>
+</div>
+</div>
+</div>
+>>>>>>> 1e44a7d71bd1a2fa2a7b3de4c988504619acc9b5
 <style>
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
@@ -98,6 +142,7 @@
     color: green;
     margin: 5px;
 }
+<<<<<<< HEAD
 #polina {
     background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
     color: white;
@@ -111,6 +156,18 @@
     top: 26px;
     width: 31%;
 	z-index:99;
+=======
+
+#polina { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100; 
+  background: rgba(0,0,0,0.7);
+  color: white;
+  padding: 2%;
+  width: 31%;
+  margin: 3% 5% 5% auto;
+  float: right;
+>>>>>>> 1e44a7d71bd1a2fa2a7b3de4c988504619acc9b5
 }
 .btn-facebook{
 	background-color: #3b5998;

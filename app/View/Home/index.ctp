@@ -1,3 +1,147 @@
+
+<div class="container-fluid">
+  <div class="container-fluid video">
+	<video poster="#" id="bgvid" playsinline autoplay muted loop>
+	<!-- -->
+	<source src="https://drive.google.com/uc?export=download&id=0B-ldJJbw0AnkTmZCT0E1S0pwZFk" type="video/mp4">
+	</video>
+  </div>
+	
+
+	<div id="polina" class="col-sm-6">
+	<h4 class="text-center">Register as a New Seller</h4>
+	<div class="social text-center">
+	<div class="row">
+	<div class="col-sm-6">
+        <a class="btn btn-block btn-social btn-facebook" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-facebook']);">
+            <span class="fa fa-facebook"></span> Sign Up
+        </a>
+    </div>
+    <div class="col-sm-6">
+    <a class="btn btn-block btn-social btn-google" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-google']);">
+        <span class="fa fa-google"></span> Sign up
+    </a>
+    </div>
+	</div>
+	</div>
+	<div class="text-center">
+		<h5>OR</h5>
+	</div>
+	
+	<?php echo  $this->Form->create('User',array('method'=>'POST','url'=>array('controller'=>'logins','action'=>'register'),'class'=>'form-horizontal')); ?>
+    <div class="form-group has-success has-feedback">
+      <div class="col-sm-12">
+      
+		<?php echo $this->Form->input('firstname',array('type'=>'text','class'=>'form-control','placeholder'=>'Name','required'=>true,'label'=>false)); ?>
+        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+      </div>
+    </div>
+     <div class="form-group has-success has-feedback">
+      <div class="col-sm-12">
+       
+		<?php echo $this->Form->input('email',array('type'=>'text','class'=>'form-control','placeholder'=>'Email','required'=>true,'label'=>false)); ?>
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+      </div>
+    </div>
+     <div class="form-group has-success has-feedback">
+      <div class="col-sm-12">
+        
+		<?php echo $this->Form->input('phone_no',array('type'=>'text','class'=>'form-control','placeholder'=>'Mobile Number','required'=>true,'label'=>false)); ?>
+        <span class="glyphicon glyphicon-phone form-control-feedback"></span>
+      </div>
+    </div>
+     <div class="form-group has-success has-feedback">
+      <div class="col-sm-12">
+       
+		<?php echo $this->Form->input('password',array('type'=>'password','class'=>'form-control','placeholder'=>'Password','required'=>true,'label'=>false)); ?>
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+      </div>
+    </div>
+  <div class="text-center">
+  <p class="text-center">By signing up, you agree to our <a href="#">T&C</a> and <a href="#">privacy policy</a></p>
+  
+  <?php echo $this->Form->submit('START SELLING',array('class'=>'btn sellBtn btn-success')); ?>
+  </div>
+  <?php echo $this->Form->end(); ?>
+  <br>
+  <?php echo $this->session->flash();?>
+   <div class="text-right">
+   <p>Already Registered?<a href="#"> Login Here </a></p>
+  </div>
+  
+</div>
+
+<style>
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.logo{
+  position: absolute;
+  width: 200px;
+  margin: -12px 0px 0px -12px;
+  padding: 0px
+}
+.headText{
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100; 
+  margin: 15% auto 0 5%;
+  color: white;
+}
+.headText h1:before{
+    font-family: FontAwesome;
+    content: "\f18c";
+    color: green;
+    margin: 5px;
+}
+.headText h1:after{
+    font-family: FontAwesome;
+    content: "\f18c";
+    color: green;
+    margin: 5px;
+}
+#polina {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    color: white;
+    float: right;
+    font-family: Agenda-Light,Agenda Light,Agenda,Arial Narrow,sans-serif;
+    font-weight: 100;
+    margin: 3% 5% 5% auto;
+    padding: 2%;
+    position: absolute;
+    right: -65px;
+    top: 26px;
+    width: 31%;
+	z-index:99;
+}
+.btn-facebook{
+	background-color: #3b5998;
+	color: #fff;
+}
+.btn-facebook:hover{
+	background-color: #fff;
+	color: #3b5998;
+}
+.btn-google{
+	background-color: #c23321;
+	color: #fff;
+}
+.btn-google:hover{
+	background-color: #fff;
+	color: #c23321;
+}
+
+@media screen and (max-width: 500px) { 
+  #polina{
+    width:90%;
+    margin-top: -50% !important;
+  } 
+  video{
+    display: none;
+  }
+}
+@media screen and (max-device-width: 800px) {
+  #bgvid { display: none; }
+}
+</style>
 <div class="about">
 	<div class="container">
 		<div class="heading">

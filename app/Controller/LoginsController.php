@@ -24,7 +24,7 @@ class LoginsController extends AppController {
 	 * Description: Used to refister front end user
 	 * Created By: Naveen Joshi on 4/06/2016*/
 	 
-	 public function register(){
+	/* public function register(){
 		 
 		 if($this->request->is('post')){
 			 $this->User->set($this->request->data);
@@ -40,9 +40,32 @@ class LoginsController extends AppController {
 			 $this->redirect(array('controller'=>'home','action'=>'index'));
 		 }
 		 
+	 }*/
+
+       public function register(){
+		 $this->autorender = false;
+		 $this->layout =false;
+		 if($this->request->is('post')){
+			 //echo '<pre>'; print_r($this->request->data);
+			 $this->User->set($this->request->data);
+			 $chkuser = $this->User->findByEmail($this->request->data['User']['email']);
+			 if(empty($chkuser)){ 
+				 $this->request->data['User']['password']=$this->Auth->password($this->request->data['User']['password']); //auto generated password
+				 $this->request->data['User']['user_role_id']='3';   //Chef role id=2;
+				 $this->request->data['User']['created']=date('Y-m-d H:i:s');
+				 $this->User->save($this->request->data);
+				 $this->Session->setFlash(__('Your account created successfully, thank you for registering.',true),'default',array('class'=>'alert alert-success'));
+				 
+			 }else{
+				 $this->Session->write('RequestData',$this->request->data);
+				 $this->Session->setFlash(__('Email id already registered',true),'default',array('class'=>'alert alert-danger'));
+			 }
+			 $this->redirect(array('controller'=>'home','action'=>'index'));
+		 }
+		 
 	 }
-
-
+	 
+	 
        public function admin_index(){
           if ($this->request->is('post')) {
               $this->login($this->request->data);

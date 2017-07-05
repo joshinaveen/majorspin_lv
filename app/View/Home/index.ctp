@@ -73,29 +73,7 @@
 </div>
 <style>
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-body{
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-}
-video { 
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    bottom: 0%;
-    min-width: 100vw;
-    max-height: 685px;
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 100vw;
-    height: 685px;
-    z-index: -100;
-    transform: translateX(0%) translateY(0%);
- 	  background: url('#') no-repeat;
-  	background-size: cover;
-  	transition: 1s opacity;
-    overflow: hidden;
-}
+
 .logo{
   position: absolute;
   width: 200px;
